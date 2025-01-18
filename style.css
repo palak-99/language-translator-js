@@ -1,0 +1,235 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #5372f0, #8d92f4, #b8b5f8, #ddd9fc, #ffffff);
+}
+
+.container {
+    width: 690px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.wrapper {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid #bbb;
+}
+
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+}
+
+.controls, li {
+    display: flex;
+    list-style: none;
+    padding: 12px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controls .row.from .icons {
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+
+.controls .row.to .icons {
+    padding-left: 15px;
+    border-left: 1px solid #bbb;
+}
+
+/* .controls .icons {
+    width: 38%;
+}
+
+.controls .icons i {
+    width: 50px;
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+} */
+
+/* .controls .icons {
+    display: flex; 
+    justify-content: space-between; 
+    width: auto; 
+}
+
+.controls .icons i {
+    margin-right: 20px; 
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.controls .row select {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+.controls .exchange{
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: #5372f0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #5372f0, #8d92f4, #b8b5f8, #ddd9fc, #ffffff);
+}
+
+.container {
+    width: 690px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.wrapper {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid #bbb;
+}
+
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+}
+
+.controls {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out controls evenly */
+    align-items: center; /* Center align items vertically */
+    padding: 12px 15px; /* Padding around controls */
+}
+
+.controls .row {
+    display: flex; /* Flex layout for rows */
+    align-items: center; /* Center icons and selects vertically */
+}
+
+.controls .row.from .icons,
+.controls .row.to .icons {
+    display: flex; /* Align icons next to each other */
+}
+
+.controls .row select {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    margin-right: 15px; /* Space between select and icons */
+}
+
+.controls .icons i {
+    margin-right: 15px; /* Space between icons */
+    color: #9f9f9f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.controls .exchange {
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px; /* Space above button */
+    border: none;
+    outline: none;
+    background-color: #5372f0; /* Consistent button color */
+    border-radius: 5px; 
+    color: #fff; 
+    font-size: 17px; 
+    cursor: pointer; 
+}
+
+.container button:hover {
+   background-color: #475ab7; /* Darker shade on hover */
+   transition: background-color 0.3s ease; /* Smooth transition */
+}
